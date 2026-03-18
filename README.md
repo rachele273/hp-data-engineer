@@ -15,6 +15,7 @@ A few sample CSVs are found in the hospital_output folder. They are named accord
 
 ## Scheduling
 This script can be run daily. It is designed to only update CSV files that have not been read at all, or have a modified date that is more recent than the last time they were read. Scheduling is not currently built in to the script but can be aded with cron
+
 **example**
 ```
 crontab -e 
