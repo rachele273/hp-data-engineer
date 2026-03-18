@@ -11,7 +11,7 @@ python data_extract.py [or python3 data_extract.py]
 ```
 
 ## Sample Data 
-A few sample CSVs are found in the hospital_output folder. 
+A few sample CSVs are found in the hospital_output folder. They are named according to identifier and date modified.
 
 ## Scheduling
 This script can be run daily. It is designed to only update CSV files that have not been read at all, or have a modified date that is more recent than the last time they were read. Scheduling is not currently built in to the script but can be aded with cron
